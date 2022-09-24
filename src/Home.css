@@ -1,11 +1,11 @@
 :root {
-  --rojo: rgb(36, 34, 39);
-  --fondo: rgba(93, 133, 252, 0.795);
+  --rojo: rgb(211, 206, 206);
+  --fondo: rgba(0, 1, 68, 0.938);
   }
   
   * {
     margin: 0;
-    padding: 3.5px 3.5px;
+    padding: 4px 4px;
   box-sizing: border-box;
   }
   
@@ -13,15 +13,23 @@
       background: var(--fondo);
   }
   .PaginaPrincipal {
+    margin-top:5px;
+    margin-bottom: 15px;
     align-items: center;
     display: flex;
     justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.692);
 }
 .Titulo {
     font-family: 'Rubik Dirt', cursive;
     font-weight: normal;
     color: var(--rojo);
     font-size: 30px;
+}
+
+.Icono{
+  width:100%;
+    height: 100%; 
 }
 
 .Boton {
@@ -38,5 +46,5 @@
   }
   .Boton:hover {
     background: white;
-    color: rgb(0, 0, 0);
+    color: rgb(4, 4, 158);
   }

@@ -1,6 +1,6 @@
 import React from "react";
 import '../Home.css';
-import Principal from '../img/Principal.jpg';
+import Principal from '../img/Principal1.jpg';
 import {BrowserRouter,Link} from 'react-router-dom';
 
 class Home extends React.Component{
