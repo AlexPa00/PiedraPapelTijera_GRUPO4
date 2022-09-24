@@ -1,0 +1,48 @@
+:root {
+    
+    --fondo: #000000;
+}
+
+body {
+    background: var(--fondo);
+    font-family: 'Open Sans', sans-serif;
+    }
+
+.titulo{
+    color: #673979;
+    margin: center;
+    font-size: 40px;
+    margin-bottom: 0.4em;
+}
+
+
+.imagen{
+    margin-top: 40px;
+    margin-left: 400px;
+    font-size: 11px;
+    min-height: 40.62em;
+    margin-bottom: 20px;
+    display: flex;
+    
+}
+
+.boton{
+    margin-right: 1.25em;
+    margin-left:  1.25em;
+    background: rgba(48, 48, 48, 0.5);
+    border: none;
+    border-radius: 0.31em;
+   padding: 0.93em  1.85em;
+    color: #FFF;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 1.12em;
+    text-decoration: none;
+}
+
+.boton:hover{
+    background: rgb(112, 42, 129);
+    color: rgb(252, 250, 250);
+}
+
+ 
