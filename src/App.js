@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+//import './App.css';
+import Header from './Header'
+import styled from 'styled-components'; 
+import Wrapper from './wrapper';
+import Game from './game';
+
+const AppStyled = styled.main`
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+background: radial-gradient(ellipse, rgba(82,64,152,1) 35%, rgba(8,10,18,1) 91%);
+min-height: 100vh; 
+padding: 4em 0;
+body{
+  font-family: 'Rubik Dirt', cursive;
+}
+`
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> prueba
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return(
+    <AppStyled>
+      <Wrapper>
+      <Header />
+      <Game />
+      </Wrapper>
+    </AppStyled>
+  )
 }
 
 export default App;
