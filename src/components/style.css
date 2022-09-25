@@ -26,16 +26,16 @@ header{
     align-items:center;
     flex-wrap: wrap;
     padding: 0px; /*distancia de os cuadros con el resto*/
-    margin: 50px; /*distancia de os cuadros con los */
+    margin: 50px; 
 }
 
 .container .card{
     position: relative;
-    max-width: 350px; /*ancho de cada cuadro*/
-    height: 350px; /*alto de cada cuadro*/
+    max-width: 370px; /*ancho de cada cuadro*/
+    height: 355px; /*alto de cada cuadro*/
     background: #fff; /*color de cada cuadro*/
     margin: 25px 25px; /* distancia enrte cada cuadro*/
-    padding: 20px 15px; /*distancia entre imagen y borde de cuadro*/
+    padding: 10px 15px; /*distancia entre imagen y borde de cuadro*/
     display: flex;
     flex-direction: column;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
@@ -45,26 +45,11 @@ header{
     height: 530px; /*cuanto baja cada cuadro*/
 }
 
-.container .card .imgBx{
-    position:relative;
-    width: 20px;
-    height: 10px;
-    top: -60px;
-    left: 2px;
-    z-index: 1;
-    box-shadow: 0.5px 20px rgba(0, 0, 0, 0.2);
-}
-
-.container.card.imgBx img{
-    max-width: 100%;
-    border-radius: 4px;
-}
-
 
 .container .card .content{
     position: relative;
     margin-top: -200px; 
-    padding: 40px 15px;
+    padding: 40px 0px;
     text-align: center;
     color: #111;
     visibility: hidden;

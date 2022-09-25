@@ -1,15 +1,12 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import {  Link } from 'react-router-dom';
 import './style.css';
 import Desarrollador from './Desarrollador';
 import desarolladores from "./json/desarollares.json";
-import { Button } from 'bootstrap';
 class Info extends React.Component {
     render() {
         return ( <>
-        <h1>desarolladores</h1>
-            <header>
-               
+            <header>               
                 <div class="container">
                     {desarolladores.map(des =>
                         <Desarrollador
@@ -27,5 +24,4 @@ class Info extends React.Component {
         );
     }
 }
-
 export default Info;
