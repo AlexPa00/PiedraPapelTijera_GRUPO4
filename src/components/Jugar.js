@@ -1,6 +1,6 @@
 function Jugar(){
     return(
-        <h1>Hola Mundo</h1>
+        <h1>Juego</h1>
     )
 }
 export default Jugar;
