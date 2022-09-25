@@ -13,19 +13,17 @@ class Navegacion extends React.Component{
         <div className="PaginaPrincipal">
             <h1 className="Titulo">Piedra Papel o Tijera</h1>
             <nav>  
-            <Link to ='/inicio' className = "Boton" >Inicio</Link>
+            <Link to ='/' className = "Boton" >Inicio</Link>
             <Link to ='/jugar' className = "Boton" >Jugar</Link>
             <Link to ='/desarrolladores' className = "Boton" >Desarrolladores</Link>
             </nav>
         </div>
 
         <Routes>
-            <Route path = "inicio" element= {<Inicio/>}/>
+            <Route path = "/" element= {<Inicio/>}/>
             <Route path = "jugar" element= {<Jugar/>}/>
             <Route path = "desarrolladores" element= {<Desarrolladores/>}/>
         </Routes>
-
-        <footer>Pie de Pagina</footer>
      </BrowserRouter>
      </>
     )
