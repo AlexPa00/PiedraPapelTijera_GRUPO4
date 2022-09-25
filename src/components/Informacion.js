@@ -8,7 +8,7 @@ class Informacion extends React.Component{
            <article className="ListaDesarrolladores">
              <img src={this.props.img} alt="" className="Foto"/>
              <ul>
-              <h1 className="Nombre">{this.props.nombre}</h1>
+              <h3 className="Nombre">{this.props.nombre}</h3>
               <p className="LU">{this.props.lu}</p>
               <p className="Descripcion">{this.props.descripcion}</p>
              </ul>

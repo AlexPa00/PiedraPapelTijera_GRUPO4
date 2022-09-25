@@ -4,10 +4,11 @@
     float: left;
   }
   .ListaDesarrolladores {
-    margin-left: 80px;
-    margin-right: 60px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
@@ -24,6 +25,7 @@
     height: 180px;
     margin: 50px 50px;
     margin: center;
+    margin-bottom: 55px;
     border-radius: 130px;
   }
   .Nombre{
