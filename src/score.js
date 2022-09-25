@@ -1,5 +1,6 @@
-import React from "react";
+import React,{useContext} from "react";
 import styled from "styled-components";
+import { ScoreContext } from './App'
 
 const ScoreStyled = styled.div`
 background: #ffffff;
@@ -23,13 +24,18 @@ p{
     position:relative;
     left:-2.5px;
 }
-
+@media screen and (min-width: 768px) {
+    padding: 10px 20px;
+    small {
+      font-size: 16px;
+    }
  `
 function Score(){
+    const { score } = useContext(ScoreContext)
     return(
         <ScoreStyled>
-            <small>score</small>
-            <p>12</p>
+            <small>Puntaje</small>
+            <p>{score}</p>
             
         </ScoreStyled>
     )

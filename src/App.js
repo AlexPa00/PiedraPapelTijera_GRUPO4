@@ -1,10 +1,12 @@
-import React from 'react';
+import React, {createContext,useState} from 'react';
 //import './App.css';
 import Header from './Header'
 import styled from 'styled-components'; 
 import Wrapper from './wrapper';
 import Game from './game';
 import Rules from './rules';
+
+export const ScoreContext = createContext()
 
 const AppStyled = styled.main`
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
@@ -27,8 +29,14 @@ body{
 
 }
   `
+
 function App() {
-  return(
+  const [score, setScore] = useState(0)
+  return (
+    <ScoreContext.Provider value={{
+      score,
+      setScore,
+    }}>
     <AppStyled>
       <Wrapper>
         <div className="content-app">
@@ -38,6 +46,7 @@ function App() {
         </div>
        </Wrapper>
     </AppStyled>
+    </ScoreContext.Provider>
   )
 }
 
