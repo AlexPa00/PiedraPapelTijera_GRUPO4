@@ -1,20 +1,29 @@
-:root {
+.box-app {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(29, 18, 37);
     
-    --fondo: #000000;
 }
 
-body {
-    background: var(--fondo);
-    font-family: 'Open Sans', sans-serif;
-    }
+ 
 
 .titulo{
-    color: #673979;
+    color: #eafbff;
     margin: center;
     font-size: 40px;
     margin-bottom: 0.4em;
 }
 
+.box-title{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(98, 57, 126);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    border-bottom: 2px solid rgb(51, 30, 78);
+}
 
 .imagen{
     margin-top: 40px;
@@ -29,7 +38,7 @@ body {
 .boton{
     margin-right: 1.25em;
     margin-left:  1.25em;
-    background: rgba(48, 48, 48, 0.5);
+    background: rgba(0, 0, 0, 0.5);
     border: none;
     border-radius: 0.31em;
    padding: 0.93em  1.85em;
@@ -41,8 +50,12 @@ body {
 }
 
 .boton:hover{
-    background: rgb(112, 42, 129);
+    background: rgb(139, 58, 161);
     color: rgb(252, 250, 250);
 }
 
- 
+.box-game{
+    background-color: aqua;
+    width: 100%;
+    height: 100vh;
+ }
