@@ -1,20 +1,22 @@
-import React from "react";
-import '../Desarrolladores.css';
+import React from 'react';
+import Informacion from './Informacion';
+import desarrolladores from '../desarrolladores.json';
 
-class Desarrolladores extends React.Component{
-  render(){
-    return(
-        <div className="TopDesarrolladores">
-           <article className="ListaDesarrolladores">
-             <img src={this.props.img} alt="" className="Foto"/>
-             <ul>
-              <h1 className="Nombre">{this.props.nombre}</h1>
-              <p className="LU">{this.props.lu}</p>
-              <p className="Descripcion">{this.props.descripcion}</p>
-             </ul>
-           </article>
-      </div>
-    )
-  }
+function Desarrolladores(){
+return(
+<div className="Desarrolladores">
+<header className="Desarrolladores-header">
+{desarrolladores.map(des=>
+    <Informacion
+    img={des.img}
+    nombre={des.nombre}
+    lu={des.lu}
+    descripcion={des.descripcion}
+    />
+)}
+</header>
+</div>
+)
 }
+
 export default Desarrolladores;

@@ -6,7 +6,7 @@
   * {
     margin: 0;
     padding: 4px 4px;
-  box-sizing: border-box;
+    box-sizing: border-box;
   }
   
   body {
@@ -28,7 +28,7 @@
 }
 
 .Icono{
-  width:100%;
+    width:100%;
     height: 100%; 
 }
 
