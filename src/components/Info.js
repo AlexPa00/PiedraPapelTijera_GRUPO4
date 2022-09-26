@@ -17,9 +17,7 @@ class Info extends React.Component {
                             correo={des.correo}
                             github={des.github}
                         ></Desarrollador>)}
-                    <div class="d-grid gap-2 col-6 mx-auto">
-                        <Link class="btn btn-primary" to="/" type="button">Volver Al Menu</Link>
-                    </div>
+
                 </div>
             </header></>
         );
