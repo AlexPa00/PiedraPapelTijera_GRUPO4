@@ -13,6 +13,9 @@ small{
     color:#2A45C2;
     text-transform: uppercase;
     font-size: 10px;
+    position:relative;
+    right:13px;
+
 }
 
 p{

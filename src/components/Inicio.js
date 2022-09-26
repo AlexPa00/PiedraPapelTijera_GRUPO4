@@ -4,6 +4,7 @@ import Principal from '../img/1.png';
 import Principal2 from '../img/2.png';
 import Principal3 from '../img/3.png';
 
+
 function Inicio(){
     return(
         <>

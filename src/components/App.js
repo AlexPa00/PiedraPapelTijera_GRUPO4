@@ -10,7 +10,7 @@ export const ScoreContext = createContext()
 
 const AppStyled = styled.main`
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
-background: radial-gradient(ellipse, rgba(82,64,152,1) 35%, rgba(8,10,18,1) 91%);
+
 
 
 body{
