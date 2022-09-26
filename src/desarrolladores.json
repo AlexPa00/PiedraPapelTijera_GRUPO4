@@ -1,0 +1,38 @@
+[
+    {
+       "img":"./img/Perfil1.png",
+       "nombre":"Casandra Reina",
+       "lu":"XXXX",
+       "descripcion":"........."
+    },
+    {
+       "img":"./img/Perfil2.png",
+       "nombre":"Alexis Pacheco",
+       "lu":"XXXX",
+       "descripcion":"........."
+    },
+    {
+       "img":"./img/Perfil3.png",
+       "nombre":"Nerea Reina",
+       "lu":"XXXX",
+       "descripcion":".........."
+    },
+    {
+       "img":"./img/Perfil4.png",
+       "nombre":"Augusto Velazquez",
+       "lu":"XXXX",
+       "descripcion":".........."
+    },
+    {
+       "img":"./img/Perfil5.png",
+       "nombre":"Josue Gutierrez",
+       "lu":"XXXX",
+       "descripcion":"........."
+    },
+    {
+        "img":"./img/Perfil6.png",
+        "nombre":"Rodrigo Fines",
+        "lu":"XXXX",
+        "descripcion":"........."
+     }
+]
