@@ -13,6 +13,7 @@ justify-content: space-between;
 h1{
     font-size: 30px;
     line-height:16px;
+    font-style: Arial;
 }
  `
 function Header(){
